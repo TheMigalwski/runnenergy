@@ -1,3 +1,8 @@
+.link {
+  outline: none;
+  text-decoration: none;
+}
+
 .card {
   min-height: 300px;
   min-width: 250px;
@@ -11,6 +16,11 @@
   gap: 12px;
   align-items: center;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .list {
